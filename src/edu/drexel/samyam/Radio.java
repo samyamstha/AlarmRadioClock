@@ -2,11 +2,11 @@ package edu.drexel.samyam;
 
 public class Radio {
 
-    private Station currentRadioStation;
-    private int volume;
+    protected Station currentRadioStation;
+    protected int volume;
     private final int MAX_VOLUME = 100;
     private final int MIN_VOLUME = 0;
-
+    protected boolean isRadioOn;
 
 
     public Station getRadioStation() {
@@ -27,5 +27,14 @@ public class Radio {
         }else{
             System.out.println("Volume has to be within 0 to 100.");
         }
+    }
+
+    public void turnRadioOn(){
+        this.isRadioOn = true;
+
+    }
+
+    public void turnRadioOff(){
+        this.isRadioOn = false;
     }
 }

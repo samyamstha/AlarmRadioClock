@@ -2,8 +2,8 @@ package edu.drexel.samyam;
 
 
 public class AlarmClockRadio {
-    private Radio radio;
-    private AlarmClock alarmClock;
+    protected Radio radio;
+    protected AlarmClock alarmClock;
 
 
    public void setRadioStation(Station station){
@@ -54,7 +54,10 @@ public class AlarmClockRadio {
 
     public boolean checkAlarm() {
         if (alarmClock.checkAlarm())
-            System.out.println("\nThe radio is playing " + getRadioStation().getStationName());
+            if (radio.isRadioOn){
+                System.out.println("\nThe radio is playing " + getRadioStation().getStationName());
+
+            }
         return alarmClock.checkAlarm();
 
     }
@@ -66,6 +69,15 @@ public class AlarmClockRadio {
     public void tick(){
        alarmClock.tick();
     }
+
+    public void turnRadioOn(){
+        radio.turnRadioOn();
+
+    }
+
+    public void turnRadioOff(){
+        radio.turnRadioOff();
+   }
 
 
 
