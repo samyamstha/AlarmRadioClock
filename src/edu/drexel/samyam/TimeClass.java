@@ -4,7 +4,6 @@ public class TimeClass {
 
     protected final int MAX_HOURS = 12;
     protected final int MAX_MINS = 60;
-    protected final int SNOOZE_MIN = 9;
     protected final int MAX_SECONDS = 60;
 
     protected int hours;
@@ -21,7 +20,6 @@ public class TimeClass {
 
 
     public String showTime(){
-
         return String.valueOf(hours) + ":" + String.valueOf(mins) + " " +String.valueOf(meridiem);
     }
 }

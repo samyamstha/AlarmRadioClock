@@ -4,6 +4,9 @@ public class Radio {
 
     private Station currentRadioStation;
     private int volume;
+    private final int MAX_VOLUME = 100;
+    private final int MIN_VOLUME = 0;
+
 
 
     public Station getRadioStation() {
@@ -19,6 +22,10 @@ public class Radio {
     }
 
     public void setVolume(int volume) {
-        this.volume = volume;
+        if (volume >= MIN_VOLUME && volume <= MAX_VOLUME) {
+            this.volume = volume;
+        }else{
+            System.out.println("Volume has to be within 0 to 100.");
+        }
     }
 }

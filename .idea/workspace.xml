@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e78b2199-643d-4b03-a2a7-ebf3d2fcea98" name="Default" comment="" />
+    <list default="true" id="e78b2199-643d-4b03-a2a7-ebf3d2fcea98" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alarm-Radio-Clock/edu/drexel/samyam/AlarmClockRadio.class" afterPath="$PROJECT_DIR$/out/production/Alarm-Radio-Clock/edu/drexel/samyam/AlarmClockRadio.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alarm-Radio-Clock/edu/drexel/samyam/Main.class" afterPath="$PROJECT_DIR$/out/production/Alarm-Radio-Clock/edu/drexel/samyam/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alarm-Radio-Clock/edu/drexel/samyam/Radio.class" afterPath="$PROJECT_DIR$/out/production/Alarm-Radio-Clock/edu/drexel/samyam/Radio.class" />
+      <change beforePath="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClock.java" afterPath="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClock.java" />
+      <change beforePath="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClockRadio.java" afterPath="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClockRadio.java" />
+      <change beforePath="$PROJECT_DIR$/src/edu/drexel/samyam/Main.java" afterPath="$PROJECT_DIR$/src/edu/drexel/samyam/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/edu/drexel/samyam/Radio.java" afterPath="$PROJECT_DIR$/src/edu/drexel/samyam/Radio.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,98 +28,108 @@
               <ID>JAVA</ID>
               <OriginalElement>edu.drexel.samyam</OriginalElement>
               <nodes>
-                <node x="279.7438725490196" y="278.0">edu.drexel.samyam.Station</node>
-                <node x="86.49387254901961" y="0.0">edu.drexel.samyam.TimeClass</node>
-                <node x="132.0686274509804" y="525.0">edu.drexel.samyam.AlarmClockRadio</node>
-                <node x="12.0" y="402.0">edu.drexel.samyam.AlarmClock</node>
-                <node x="0.0" y="289.5">edu.drexel.samyam.Clock</node>
-                <node x="251.4375" y="402.0">edu.drexel.samyam.Radio</node>
-                <node x="322.39950980392155" y="680.0">edu.drexel.samyam.Main</node>
+                <node x="331.5625" y="288.0">edu.drexel.samyam.Station</node>
+                <node x="43.0625" y="0.0">edu.drexel.samyam.TimeClass</node>
+                <node x="170.05701754385964" y="579.0">edu.drexel.samyam.AlarmClockRadio</node>
+                <node x="0.0" y="434.0">edu.drexel.samyam.AlarmClock</node>
+                <node x="50.057017543859615" y="299.5">edu.drexel.samyam.Clock</node>
+                <node x="301.4945175438596" y="412.0">edu.drexel.samyam.Radio</node>
+                <node x="375.0570175438596" y="734.0">edu.drexel.samyam.Main</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.Station">
                   <point x="17.333333333333314" y="-47.5" />
-                  <point x="253.4019607843137" y="500.0" />
-                  <point x="240.9375" y="500.0" />
-                  <point x="240.9375" y="377.0" />
-                  <point x="303.1188725490196" y="377.0" />
+                  <point x="290.9945175438596" y="387.0" />
+                  <point x="354.9375" y="387.0" />
                   <point x="-70.125" y="37.0" />
                 </edge>
                 <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.TimeClass">
-                  <point x="32.08333333333332" y="-14.5" />
-                  <point x="392.9828431372549" y="660.0" />
-                  <point x="520.7745098039215" y="660.0" />
-                  <point x="520.7745098039215" y="253.0" />
-                  <point x="286.8688725490196" y="253.0" />
-                  <point x="85.875" y="114.0" />
+                  <point x="32.083333333333314" y="-14.5" />
+                  <point x="445.64035087719293" y="714.0" />
+                  <point x="573.4320175438596" y="714.0" />
+                  <point x="573.4320175438596" y="268.0" />
+                  <point x="274.97916666666663" y="268.0" />
+                  <point x="105.41666666666666" y="114.0" />
                 </edge>
                 <edge source="edu.drexel.samyam.AlarmClock" target="edu.drexel.samyam.Clock">
-                  <point x="0.0" y="-36.5" />
-                  <point x="0.0" y="25.5" />
+                  <point x="73.5" y="-36.5" />
+                  <point x="171.5" y="387.0" />
+                  <point x="206.05701754385962" y="387.0" />
+                  <point x="52.0" y="25.5" />
                 </edge>
                 <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.Radio">
-                  <point x="86.66666666666669" y="-47.5" />
-                  <point x="322.7352941176471" y="500.0" />
-                  <point x="370.9375" y="500.0" />
-                  <point x="0.0" y="36.5" />
+                  <point x="86.66666666666663" y="-47.5" />
+                  <point x="360.72368421052624" y="559.0" />
+                  <point x="420.9945175438596" y="559.0" />
+                  <point x="0.0" y="58.5" />
                 </edge>
                 <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.Station">
                   <point x="19.25" y="-14.5" />
-                  <point x="380.14950980392155" y="650.0" />
-                  <point x="500.9375" y="650.0" />
-                  <point x="500.9375" y="377.0" />
-                  <point x="443.3688725490196" y="377.0" />
+                  <point x="432.8070175438596" y="704.0" />
+                  <point x="550.9945175438596" y="704.0" />
+                  <point x="550.9945175438596" y="387.0" />
+                  <point x="495.1875" y="387.0" />
                   <point x="70.125" y="37.0" />
                 </edge>
                 <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.AlarmClockRadio">
                   <point x="-6.416666666666686" y="-14.5" />
-                  <point x="354.48284313725486" y="640.0" />
-                  <point x="288.0686274509804" y="640.0" />
+                  <point x="407.14035087719293" y="694.0" />
+                  <point x="326.0570175438596" y="694.0" />
                   <point x="52.0" y="47.5" />
                 </edge>
                 <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.TimeClass">
-                  <point x="-17.333333333333343" y="-47.5" />
-                  <point x="218.5" y="253.0" />
-                  <point x="229.6188725490196" y="253.0" />
-                  <point x="28.625" y="114.0" />
+                  <point x="-17.33333333333337" y="-47.5" />
+                  <point x="256.72368421052624" y="559.0" />
+                  <point x="268.5570175438596" y="559.0" />
+                  <point x="268.5570175438596" y="268.0" />
+                  <point x="232.81250000000003" y="268.0" />
+                  <point x="63.25000000000003" y="114.0" />
                 </edge>
                 <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.AlarmClock">
-                  <point x="-32.08333333333337" y="-14.5" />
-                  <point x="328.8161764705882" y="660.0" />
-                  <point x="82.23529411764702" y="660.0" />
-                  <point x="82.23529411764702" y="500.0" />
-                  <point x="42.666666666666686" y="500.0" />
-                  <point x="-61.333333333333314" y="36.5" />
+                  <point x="-32.083333333333314" y="-14.5" />
+                  <point x="381.4736842105263" y="714.0" />
+                  <point x="64.3486842105263" y="714.0" />
+                  <point x="64.3486842105263" y="559.0" />
+                  <point x="32.666666666666686" y="559.0" />
+                  <point x="-65.33333333333331" y="36.5" />
+                </edge>
+                <edge source="edu.drexel.samyam.AlarmClock" target="edu.drexel.samyam.TimeClass">
+                  <point x="-73.5" y="-36.5" />
+                  <point x="24.5" y="387.0" />
+                  <point x="28.557017543859615" y="387.0" />
+                  <point x="28.557017543859615" y="248.0" />
+                  <point x="64.14583333333337" y="248.0" />
+                  <point x="-105.41666666666663" y="114.0" />
                 </edge>
                 <edge source="edu.drexel.samyam.Radio" target="edu.drexel.samyam.Station">
-                  <point x="-59.75" y="-36.5" />
-                  <point x="311.1875" y="377.0" />
-                  <point x="349.8688725490196" y="377.0" />
+                  <point x="-59.75" y="-58.5" />
+                  <point x="361.2445175438596" y="387.0" />
+                  <point x="401.6875" y="387.0" />
                   <point x="-23.375" y="37.0" />
                 </edge>
                 <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.Radio">
                   <point x="6.416666666666686" y="-14.5" />
-                  <point x="367.31617647058823" y="640.0" />
-                  <point x="447.15808823529414" y="640.0" />
-                  <point x="447.15808823529414" y="500.0" />
-                  <point x="450.6041666666667" y="500.0" />
-                  <point x="79.66666666666669" y="36.5" />
+                  <point x="419.9736842105263" y="694.0" />
+                  <point x="496.5208333333333" y="694.0" />
+                  <point x="496.5208333333333" y="559.0" />
+                  <point x="500.6611842105263" y="559.0" />
+                  <point x="79.66666666666669" y="58.5" />
                 </edge>
                 <edge source="edu.drexel.samyam.Clock" target="edu.drexel.samyam.TimeClass">
                   <point x="-52.0" y="-25.5" />
-                  <point x="52.0" y="253.0" />
-                  <point x="115.11887254901961" y="253.0" />
-                  <point x="-85.875" y="114.0" />
+                  <point x="102.05701754385962" y="268.0" />
+                  <point x="148.47916666666666" y="268.0" />
+                  <point x="-21.083333333333343" y="114.0" />
                 </edge>
                 <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.AlarmClock">
                   <point x="-52.0" y="-47.5" />
-                  <point x="184.0686274509804" y="500.0" />
-                  <point x="165.33333333333334" y="500.0" />
-                  <point x="61.33333333333334" y="36.5" />
+                  <point x="222.05701754385964" y="549.0" />
+                  <point x="163.33333333333331" y="549.0" />
+                  <point x="65.33333333333331" y="36.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.968609865470852" x="17.780092592592553" y="227.77777777777777" />
+              <settings layout="Hierarchic Group" zoom="0.968609865470852" x="17.780092592592553" y="547.7777777777778" />
               <SelectedNodes>
                 <node>edu.drexel.samyam.Station</node>
               </SelectedNodes>
@@ -127,39 +146,41 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="20" column="121" lean-forward="false" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
+            <state relative-caret-position="342">
+              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmClockRadio.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlarmClockRadio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClockRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            <state relative-caret-position="91">
+              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1155#1156#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,32 +189,28 @@
       <file leaf-file-name="Radio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/Radio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="-26">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmClock.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AlarmClock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="301">
+              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
               <folding>
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,8 +219,8 @@
       <file leaf-file-name="Clock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
@@ -219,8 +236,8 @@
       <file leaf-file-name="TimeClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/TimeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -250,6 +267,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -259,12 +279,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/edu/drexel/samyam/Station.java" />
+        <option value="$PROJECT_DIR$/src/edu/drexel/samyam/Clock.java" />
         <option value="$PROJECT_DIR$/src/edu/drexel/samyam/Radio.java" />
         <option value="$PROJECT_DIR$/src/edu/drexel/samyam/TimeClass.java" />
-        <option value="$PROJECT_DIR$/src/edu/drexel/samyam/Clock.java" />
-        <option value="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClock.java" />
-        <option value="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClockRadio.java" />
         <option value="$PROJECT_DIR$/src/edu/drexel/samyam/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClockRadio.java" />
+        <option value="$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClock.java" />
       </list>
     </option>
   </component>
@@ -279,6 +299,7 @@
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -389,15 +410,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539233084006</updated>
-      <workItem from="1539233087995" duration="21240000" />
+      <workItem from="1539233087995" duration="31823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21240000" />
+    <option name="totallyTimeSpent" value="31823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -408,9 +430,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50181377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39419588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -420,7 +442,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -442,19 +464,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1535671" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39419588" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -466,7 +488,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -497,98 +521,108 @@
           <ID>JAVA</ID>
           <OriginalElement>edu.drexel.samyam</OriginalElement>
           <nodes>
-            <node x="279.7438725490196" y="278.0">edu.drexel.samyam.Station</node>
-            <node x="86.49387254901961" y="0.0">edu.drexel.samyam.TimeClass</node>
-            <node x="132.0686274509804" y="525.0">edu.drexel.samyam.AlarmClockRadio</node>
-            <node x="12.0" y="402.0">edu.drexel.samyam.AlarmClock</node>
-            <node x="0.0" y="289.5">edu.drexel.samyam.Clock</node>
-            <node x="251.4375" y="402.0">edu.drexel.samyam.Radio</node>
-            <node x="322.39950980392155" y="680.0">edu.drexel.samyam.Main</node>
+            <node x="331.5625" y="288.0">edu.drexel.samyam.Station</node>
+            <node x="43.0625" y="0.0">edu.drexel.samyam.TimeClass</node>
+            <node x="170.05701754385964" y="579.0">edu.drexel.samyam.AlarmClockRadio</node>
+            <node x="0.0" y="434.0">edu.drexel.samyam.AlarmClock</node>
+            <node x="50.057017543859615" y="299.5">edu.drexel.samyam.Clock</node>
+            <node x="301.4945175438596" y="412.0">edu.drexel.samyam.Radio</node>
+            <node x="375.0570175438596" y="734.0">edu.drexel.samyam.Main</node>
           </nodes>
           <notes />
           <edges>
             <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.Station">
               <point x="17.333333333333314" y="-47.5" />
-              <point x="253.4019607843137" y="500.0" />
-              <point x="240.9375" y="500.0" />
-              <point x="240.9375" y="377.0" />
-              <point x="303.1188725490196" y="377.0" />
+              <point x="290.9945175438596" y="387.0" />
+              <point x="354.9375" y="387.0" />
               <point x="-70.125" y="37.0" />
             </edge>
             <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.TimeClass">
-              <point x="32.08333333333332" y="-14.5" />
-              <point x="392.9828431372549" y="660.0" />
-              <point x="520.7745098039215" y="660.0" />
-              <point x="520.7745098039215" y="253.0" />
-              <point x="286.8688725490196" y="253.0" />
-              <point x="85.875" y="114.0" />
+              <point x="32.083333333333314" y="-14.5" />
+              <point x="445.64035087719293" y="714.0" />
+              <point x="573.4320175438596" y="714.0" />
+              <point x="573.4320175438596" y="268.0" />
+              <point x="274.97916666666663" y="268.0" />
+              <point x="105.41666666666666" y="114.0" />
             </edge>
             <edge source="edu.drexel.samyam.AlarmClock" target="edu.drexel.samyam.Clock">
-              <point x="0.0" y="-36.5" />
-              <point x="0.0" y="25.5" />
+              <point x="73.5" y="-36.5" />
+              <point x="171.5" y="387.0" />
+              <point x="206.05701754385962" y="387.0" />
+              <point x="52.0" y="25.5" />
             </edge>
             <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.Radio">
-              <point x="86.66666666666669" y="-47.5" />
-              <point x="322.7352941176471" y="500.0" />
-              <point x="370.9375" y="500.0" />
-              <point x="0.0" y="36.5" />
+              <point x="86.66666666666663" y="-47.5" />
+              <point x="360.72368421052624" y="559.0" />
+              <point x="420.9945175438596" y="559.0" />
+              <point x="0.0" y="58.5" />
             </edge>
             <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.Station">
               <point x="19.25" y="-14.5" />
-              <point x="380.14950980392155" y="650.0" />
-              <point x="500.9375" y="650.0" />
-              <point x="500.9375" y="377.0" />
-              <point x="443.3688725490196" y="377.0" />
+              <point x="432.8070175438596" y="704.0" />
+              <point x="550.9945175438596" y="704.0" />
+              <point x="550.9945175438596" y="387.0" />
+              <point x="495.1875" y="387.0" />
               <point x="70.125" y="37.0" />
             </edge>
             <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.AlarmClockRadio">
               <point x="-6.416666666666686" y="-14.5" />
-              <point x="354.48284313725486" y="640.0" />
-              <point x="288.0686274509804" y="640.0" />
+              <point x="407.14035087719293" y="694.0" />
+              <point x="326.0570175438596" y="694.0" />
               <point x="52.0" y="47.5" />
             </edge>
             <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.TimeClass">
-              <point x="-17.333333333333343" y="-47.5" />
-              <point x="218.5" y="253.0" />
-              <point x="229.6188725490196" y="253.0" />
-              <point x="28.625" y="114.0" />
+              <point x="-17.33333333333337" y="-47.5" />
+              <point x="256.72368421052624" y="559.0" />
+              <point x="268.5570175438596" y="559.0" />
+              <point x="268.5570175438596" y="268.0" />
+              <point x="232.81250000000003" y="268.0" />
+              <point x="63.25000000000003" y="114.0" />
             </edge>
             <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.AlarmClock">
-              <point x="-32.08333333333337" y="-14.5" />
-              <point x="328.8161764705882" y="660.0" />
-              <point x="82.23529411764702" y="660.0" />
-              <point x="82.23529411764702" y="500.0" />
-              <point x="42.666666666666686" y="500.0" />
-              <point x="-61.333333333333314" y="36.5" />
+              <point x="-32.083333333333314" y="-14.5" />
+              <point x="381.4736842105263" y="714.0" />
+              <point x="64.3486842105263" y="714.0" />
+              <point x="64.3486842105263" y="559.0" />
+              <point x="32.666666666666686" y="559.0" />
+              <point x="-65.33333333333331" y="36.5" />
+            </edge>
+            <edge source="edu.drexel.samyam.AlarmClock" target="edu.drexel.samyam.TimeClass">
+              <point x="-73.5" y="-36.5" />
+              <point x="24.5" y="387.0" />
+              <point x="28.557017543859615" y="387.0" />
+              <point x="28.557017543859615" y="248.0" />
+              <point x="64.14583333333337" y="248.0" />
+              <point x="-105.41666666666663" y="114.0" />
             </edge>
             <edge source="edu.drexel.samyam.Radio" target="edu.drexel.samyam.Station">
-              <point x="-59.75" y="-36.5" />
-              <point x="311.1875" y="377.0" />
-              <point x="349.8688725490196" y="377.0" />
+              <point x="-59.75" y="-58.5" />
+              <point x="361.2445175438596" y="387.0" />
+              <point x="401.6875" y="387.0" />
               <point x="-23.375" y="37.0" />
             </edge>
             <edge source="edu.drexel.samyam.Main" target="edu.drexel.samyam.Radio">
               <point x="6.416666666666686" y="-14.5" />
-              <point x="367.31617647058823" y="640.0" />
-              <point x="447.15808823529414" y="640.0" />
-              <point x="447.15808823529414" y="500.0" />
-              <point x="450.6041666666667" y="500.0" />
-              <point x="79.66666666666669" y="36.5" />
+              <point x="419.9736842105263" y="694.0" />
+              <point x="496.5208333333333" y="694.0" />
+              <point x="496.5208333333333" y="559.0" />
+              <point x="500.6611842105263" y="559.0" />
+              <point x="79.66666666666669" y="58.5" />
             </edge>
             <edge source="edu.drexel.samyam.Clock" target="edu.drexel.samyam.TimeClass">
               <point x="-52.0" y="-25.5" />
-              <point x="52.0" y="253.0" />
-              <point x="115.11887254901961" y="253.0" />
-              <point x="-85.875" y="114.0" />
+              <point x="102.05701754385962" y="268.0" />
+              <point x="148.47916666666666" y="268.0" />
+              <point x="-21.083333333333343" y="114.0" />
             </edge>
             <edge source="edu.drexel.samyam.AlarmClockRadio" target="edu.drexel.samyam.AlarmClock">
               <point x="-52.0" y="-47.5" />
-              <point x="184.0686274509804" y="500.0" />
-              <point x="165.33333333333334" y="500.0" />
-              <point x="61.33333333333334" y="36.5" />
+              <point x="222.05701754385964" y="549.0" />
+              <point x="163.33333333333331" y="549.0" />
+              <point x="65.33333333333331" y="36.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.968609865470852" x="17.780092592592553" y="227.77777777777777" />
+          <settings layout="Hierarchic Group" zoom="0.968609865470852" x="17.780092592592553" y="547.7777777777778" />
           <SelectedNodes>
             <node>edu.drexel.samyam.Station</node>
           </SelectedNodes>
@@ -601,35 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/TimeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/Radio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
@@ -641,52 +650,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClock.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/TimeClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/Radio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="20" column="121" lean-forward="false" selection-start-line="20" selection-start-column="121" selection-end-line="20" selection-end-column="121" />
+        <state relative-caret-position="342">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClockRadio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="51" lean-forward="false" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+        <state relative-caret-position="91">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/drexel/samyam/AlarmClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
           </folding>
         </state>
       </provider>

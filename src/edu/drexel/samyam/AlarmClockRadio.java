@@ -4,7 +4,6 @@ package edu.drexel.samyam;
 public class AlarmClockRadio {
     private Radio radio;
     private AlarmClock alarmClock;
-    private int secondsCounter;
 
 
    public void setRadioStation(Station station){
@@ -31,31 +30,33 @@ public class AlarmClockRadio {
         this.alarmClock = alarmClock;
     }
 
-    public void setAlarmTime(TimeClass alarmtime){
-       alarmClock.setAlarmTime(alarmtime);
+    public void setAlarmTime(TimeClass alarmTime){
+       alarmClock.setAlarmTime(alarmTime);
     }
 
-    public void getAlarmTime(){
-
+    public String getAlarmTime(){
+        return alarmClock.getAlarmTime();
 
     }
 
     public void turnAlarmOn(){
-
+        alarmClock.turnAlarmOn();
     }
 
     public void turnAlarmOff(){
-        System.out.println("The alarm was shut off.");
+       alarmClock.turnAlarmOff();
 
     }
 
     public void snooze() {
        alarmClock.snooze();
-
     }
 
     public boolean checkAlarm() {
+        if (alarmClock.checkAlarm())
+            System.out.println("\nThe radio is playing " + getRadioStation().getStationName());
         return alarmClock.checkAlarm();
+
     }
 
     public void setRadio(Radio radio) {
