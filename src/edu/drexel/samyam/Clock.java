@@ -17,6 +17,7 @@ public class Clock {
         return currentTime.showTime();
     }
 
+    //Add one second to the current time and respectively increase the time.
     public void tick() {
         currentTime.seconds++;
 

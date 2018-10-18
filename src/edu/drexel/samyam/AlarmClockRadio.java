@@ -5,13 +5,12 @@ public class AlarmClockRadio {
     protected Radio radio;
     protected AlarmClock alarmClock;
 
-
-   public void setRadioStation(Station station){
-       radio.setRadioStation(station);
-   }
-
-    public Station getRadioStation(){
+    public Station getRadioStation() {
         return radio.getRadioStation();
+    }
+
+    public void setRadioStation(Station station) {
+        radio.setRadioStation(station);
     }
 
     public String getCurrentTime() {
@@ -19,7 +18,7 @@ public class AlarmClockRadio {
     }
 
     public void setCurrentTime(TimeClass currentTime) {
-       alarmClock.currentTime = currentTime;
+        alarmClock.currentTime = currentTime;
     }
 
     public AlarmClock getAlarmClock() {
@@ -30,34 +29,35 @@ public class AlarmClockRadio {
         this.alarmClock = alarmClock;
     }
 
-    public void setAlarmTime(TimeClass alarmTime){
-       alarmClock.setAlarmTime(alarmTime);
-    }
-
-    public String getAlarmTime(){
+    public String getAlarmTime() {
         return alarmClock.getAlarmTime();
 
     }
 
-    public void turnAlarmOn(){
+    public void setAlarmTime(TimeClass alarmTime) {
+        alarmClock.setAlarmTime(alarmTime);
+    }
+
+    public void turnAlarmOn() {
         alarmClock.turnAlarmOn();
     }
 
-    public void turnAlarmOff(){
-       alarmClock.turnAlarmOff();
+    public void turnAlarmOff() {
+        alarmClock.turnAlarmOff();
 
     }
 
     public void snooze() {
-       alarmClock.snooze();
+        alarmClock.snooze();
     }
 
-    public boolean checkAlarm() {
-        if (alarmClock.checkAlarm())
-            if (radio.isRadioOn){
-                System.out.println("\nThe radio is playing " + getRadioStation().getStationName());
 
-            }
+    public boolean checkAlarm() {
+        if (alarmClock.checkAlarm()) {
+
+            alarmClock.playAlarmSound();
+
+        }
         return alarmClock.checkAlarm();
 
     }
@@ -66,21 +66,21 @@ public class AlarmClockRadio {
         this.radio = radio;
     }
 
-    public void tick(){
-       alarmClock.tick();
+    public void tick() {
+        alarmClock.tick();
     }
 
-    public void turnRadioOn(){
+    public void turnRadioOn() {
         radio.turnRadioOn();
 
     }
 
-    public void turnRadioOff(){
+    public void turnRadioOff() {
         radio.turnRadioOff();
-   }
-
-
-
+        System.out.println("The radio is turned off.");
+    }
 
 
 }
+
+

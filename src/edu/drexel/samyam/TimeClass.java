@@ -12,6 +12,7 @@ public class TimeClass {
     protected String meridiem;
 
     public TimeClass(int hours, int mins, int seconds, String meridiem) {
+
         this.hours = hours;
         this.mins = mins;
         this.seconds = seconds;
